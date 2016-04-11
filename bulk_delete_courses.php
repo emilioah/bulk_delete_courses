@@ -197,7 +197,7 @@ if ($SENDEMAIL) {
 	
 	//Build the message subject
 	$site = get_site();	
-	$subject = "[ADMIN-PRADO] Backup y borrado de cursos vacíos";
+	$subject = "[ADMIN] Backup and remove unused courses";
 	
 	//Send the message
 	$eventdata = new stdClass();
