@@ -103,7 +103,7 @@ if(count($courses) > 0) { // there is one default course of moodle
 		$backedupcourses = 0;
 		$backedupcourseslist = '';
 		foreach ($courses as &$course) {			
-			// Emilio: Test time elapsed, maxtimeelapsedskipped is true to skip next backups
+			// Test time elapsed, maxtimeelapsedskipped is true to skip next backups
 			$currenttime = time();
 			$skipped = false;
 			if (($maxtime>0) && (($currenttime - $timenow) > $maxtime) && !$skipped ){						
