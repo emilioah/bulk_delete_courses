@@ -8,7 +8,7 @@
 // Authors: Emilio Arjona
 // Email: emilio.ah[at]gmail[dot]com
 //
-// This script contains code of backup.php from Lancaster University
+// This script contains code from backup.php from Lancaster University
 //
 //
 /**
@@ -38,7 +38,7 @@ require_once($CFG->dirroot . '/backup/util/includes/backup_includes.php');
 $MAXTIME = 5400; // 1h30m
 $MAXCOURSES = 100;
 $DRYRUN = 0;
-$DELETECONDITIONS = 'timecreated=timemodified AND shortname like \'%1415%\' AND visible=0';
+$DELETECONDITIONS = 'timecreated=timemodified AND visible=0';
 $DESTINATION = '/backup/'; // Destination folder
 $FILENAMEPREFIX = 'deleted-';
 $SENDEMAIL = 1;
