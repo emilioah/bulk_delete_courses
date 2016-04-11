@@ -39,12 +39,10 @@ $MAXTIME = 5400; // 1h30m
 $MAXCOURSES = 100;
 $DRYRUN = 0;
 $DELETECONDITIONS = 'timecreated=timemodified AND shortname like \'%1415%\' AND visible=0';
-//$DESTINATION = '/opt/lampp/app_data/moodle/backup_folder'; // tad10
-//$DESTINATION = '/var/www/moodledata/backuppradodev'; // niebla
-$DESTINATION = '/backup/prado'; // PRADO!!!
+$DESTINATION = '/backup/'; // Destination folder
 $FILENAMEPREFIX = 'deleted-';
 $SENDEMAIL = 1;
-$EMAILTO = 'emilio@ugr.es';
+$EMAILTO = 'admin@mail.com';
 
 
 $starttime = microtime();
